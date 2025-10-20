@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Music Recommendation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+  
+  body {
+    background-image: url(https://i.pinimg.com/736x/61/42/48/614248c2866b500800052780724f3c98.jpg);
+    }
+
+  form {
+     font: 'Oswald', serif;
+    width:70%;
+    background-color: #F5EFE6;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+</style>
+</head>
+
+
+<body>
+    <form>
+      <center>
+      <h1>Music Recommendation</h1>
+</center>
+<fieldset>
+
+      <label for="name">Your Name:</label> <br>
+      <input type="text" id="name" placeholder="Elise Lim"> <br>
+
+<br>
+      <label for="email">Your Email: </label> <br>
+      <input type="email" id="email" placeholder="elise_lim@gmail.com"> <br>
+    </fieldset>
+<br>
+
+    <fieldset>
+
+      <label for="title">Recommended Music Title:</label> <br>
+      <input type="text" id="title" placeholder="Enter music title"> <br>
+<br>
+      <label for="feedback">Why do you recommend it?</label> <br>
+      <textarea id="feedback" placeholder="feedback here..."></textarea> <br>
+</fieldset>
+      <br>
+
+   <label>Genres (select all that apply):</label> <br> 
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Pop Music</label> 
+        <label><input type="checkbox"> Kpop</label> 
+        <label><input type="checkbox"> Jazz</label> 
+        <label><input type="checkbox"> Rock</label> 
+        <label><input type="checkbox"> Classical</label> 
+  <br>
+  <br>
+
+
+    
+      <label>Rate the Music:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="rating"> 0</label> 
+        <label><input type="radio" name="rating"> 1</label> 
+        <label><input type="radio" name="rating"> 2</label> 
+        <label><input type="radio" name="rating"> 3</label> 
+        <label><input type="radio" name="rating"> 4</label> 
+        <label><input type="radio" name="rating"> 5 (Best)</label> 
+      
+<br>
+<br>
+       
+      <label for="platform">Where did you hear it?</label> <br>
+      <select id="platform">
+        <option>-- Select Platform --</option> <br>
+        <option>Spotify</option> 
+        <option>YouTube</option>
+        <option>Radio</option>
+        <option>Friend</option>
+        <option>Other</option>
+      </select>
+
+<br>
+<br>
+
+      <button type="submit">Submit Recommendation</button>
+    </form>
+
+
+
+
+
+
+
+
